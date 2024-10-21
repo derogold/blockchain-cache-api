@@ -1,0 +1,22 @@
+{
+  "bindIp": "0.0.0.0",
+  "httpPort": 8080,
+  "corsHeader": "*",
+  "coinDecimals": 2,
+  "defaultMixins": 2,
+  "emissionSpeed": 24,
+  "maxSupply": 10000000000000000,
+  "queues": {
+    "relayAgent": "request.network"
+  },
+  "nodeFee": {
+    "address": "",
+    "amount": 0
+  },
+  "blacklistedIps": [],
+  "useCompression": false,
+  "useNodeMonitor": true,
+  "usePoolMonitor": false,
+  "useRedisCache": false,
+  "checkPointsDomain": "checkpoints.turtlecoin.dev"
+}
