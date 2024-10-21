@@ -1,14 +1,11 @@
-# TurtlePay® Blockchain Cache API
-
-#### Master Build Status
-[![Build Status](https://travis-ci.org/TurtlePay/blockchain-cache-api.svg?branch=master)](https://travis-ci.org/TurtlePay/blockchain-cache-api) [![Build status](https://ci.appveyor.com/api/projects/status/github/TurtlePay/blockchain-cache-api?branch=master&svg=true)](https://ci.appveyor.com/project/brandonlehmann/blockchain-cache-api/branch/master)
+# DeroGold Blockchain Cache API
 
 ## Prerequisites
 
 * MariaDB/MySQL with InnoDB support
 * [RabbitMQ](https://www.rabbitmq.com/)
-* [TurtlePay®: Blockchain Data Collection Agent](https://github.com/TurtlePay/blockchain-data-collection-agent)
-* [TurtlePay®: Blockchain Relay Agent](https://github.com/TurtlePay/blockchain-relay-agent)
+* [DeroGold: Blockchain Data Collection Agent]()
+* [DeroGold: Blockchain Relay Agent]()
 * [Node.js](https://nodejs.org/) LTS
 
 ## Foreword
@@ -20,7 +17,7 @@ We know that this documentation needs cleaned up and made easier to read. We'll 
 1) Clone this repository to wherever you'd like the API to run:
 
 ```bash
-git clone https://github.com/TurtlePay/blockchain-cache-api
+git clone https://github.com/derogold/blockchain-cache-api.git
 ```
 
 2) Install the required Node.js modules
@@ -55,17 +52,13 @@ export MYSQL_DATABASE=yourdbname
 node index.js
 ```
 
-5) Optionally, install PM2 or another process manager to keep the service running.
-
-```bash
-npm install -g pm2@latest
-pm2 startup
-pm2 start index.js --name blockchain-cache-api -i max
-pm2 save
-```
-
 ## API
 
-See https://docs.turtlepay.io/blockapi/ for the full REST API provided by this package.
+The documentation for the full REST API provided by this package is work in progress. If you'd like to help with the documenting, 
+give us a shout on our Discord in dev-talk channel. 
 
+Original version, courtesy of now non-existent:
 ###### (c) 2018-2019 TurtlePay® Development Team
+
+This version is maintained and used by:
+###### (c) 2018 - 2024 DeroGold Developers
