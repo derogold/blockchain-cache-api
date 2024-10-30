@@ -631,10 +631,8 @@ class DatabaseBackend {
 */
          .then(() => {
 		    // Construct the query with WHERE clause using the stamps array
-		     const stampsList = stamps.map(stamp => `'${stamp}'`).join(',');
-
-		     //const stampsList = stamps.join(',');  // Convert stamps to a comma-separated string
- 
+		     const stampsList = stamps.join(',');  // Convert stamps to a comma-separated string
+		  
 		      // Ensure the stamps are used correctly in the query
 		        const query = `
 		            SELECT \`id\`, ((SUM(\`status\`) / COUNT(*)) * 100) AS \`availability\` 
