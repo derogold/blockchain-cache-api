@@ -3,7 +3,7 @@
   "httpPort": 8080,
   "corsHeader": "*",
   "coinDecimals": 2,
-  "defaultMixins": 2,
+  "defaultMixins": 1,
   "emissionSpeed": 24,
   "maxSupply": 10000000000000000,
   "queues": {
@@ -18,5 +18,5 @@
   "useNodeMonitor": true,
   "usePoolMonitor": false,
   "useRedisCache": false,
-  "checkPointsDomain": "checkpoints.turtlecoin.dev"
+  "checkPointsDomain": "bootstrap.derogold.online"
 }
